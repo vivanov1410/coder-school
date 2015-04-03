@@ -1,5 +1,14 @@
-var number1 = 10; // integer
-var number2 = 5.5; // float
+var name = 'Slava';
+
+var name;
+name = 'Slava';
+
+var firstName;
+var totalNumberOfBricks = 30;    // correct one! use this!
+var total_number_of_bricks = 30;
+
+var number1 = 10;   // integer
+var number2 = 5.5;  // float
 
 var name = 'Slava'; // string
 
@@ -31,10 +40,3 @@ var notEqual = 10 !== 10;
 // console.log(bigger);
 // console.log(equal);
 // console.log(notEqual);
-
-
-
-
-
-
-
