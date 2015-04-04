@@ -1,5 +1,5 @@
 /**
- * Create a username checker similar to password checker from structure.js
+ * Create a username checker similar to password checker from lesson02.js
  *
  * - username should be min 4 characters
  * - username should not equal 'root'

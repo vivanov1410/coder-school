@@ -1,3 +1,7 @@
+/**
+ * Variables and Data Types
+ */
+
 var name = 'Slava';
 
 var name;
