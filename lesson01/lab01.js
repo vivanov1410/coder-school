@@ -36,7 +36,7 @@ enemyHealth = enemyHealth - playerAttack;
 console.log(enemyHealth);
 
 // check if enemy is dead
-var deadEnemy = enemyHealth <= 0
+var deadEnemy = enemyHealth <= 0;
 console.log(deadEnemy + ' enemy is dead');
 
 // print out player stats in following format:
