@@ -66,11 +66,24 @@ function random(min, max) {
 //   console.log('Ты молодой...');
 // }
 
-var password = 'testoksadkjahsd';
-if(password.length < 4) {
-  console.log('Error: password is too short');
-} else if(password.length < 10) {
-  console.log('Password is normal');
-} else {
-  console.log('Password is very good');
-}
+// var password = 'testoksadkjahsd';
+// if(password.length < 4) {
+//   console.log('Error: password is too short');
+// } else if(password.length < 10) {
+//   console.log('Password is normal');
+// } else {
+//   console.log('Password is very good');
+// }
+
+/**
+ * Array
+ */
+
+var a = 'hello';
+var b = 4;
+
+var arr1 = [1, 2, 3, 55, 16];
+var fruits = ['apple', 'pineaple', 'cucumber', 'watermelon'];
+// min = 0, max = fruits.length
+var randomIndex = random(0, fruits.length);
+console.log(fruits[randomIndex]);

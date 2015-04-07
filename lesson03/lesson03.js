@@ -1,3 +1,16 @@
+/**
+ * Array
+ */
+
+// var a = 'hello';
+// var b = 4;
+
+// var arr1 = [1, 2, 3, 55, 16];
+// var fruits = ['apple', 'pineaple', 'cucumber', 'watermelon'];
+// // min = 0, max = fruits.length
+// var randomIndex = random(0, fruits.length);
+// console.log(fruits[randomIndex]);
+
 function print(message) {
   console.log(message);
 }
