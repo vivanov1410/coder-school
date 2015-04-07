@@ -1,4 +1,14 @@
 /**
+ * Create a function first(arr)
+ * that returns first element of array
+ */
+
+/**
+ * Create a function last(arr)
+ * that returns last element of array
+ */
+
+/**
  * Create a function average(a, b)
  * that returns an average of number a and b
  */
