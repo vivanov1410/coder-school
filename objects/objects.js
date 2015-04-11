@@ -78,7 +78,7 @@ function random(min, max) {
   return Math.floor(Math.random()*(max - min) + min);
 }
 
-var names = ['Slava', 'Misha', 'Sveta', 'Galya', 'Ksusha', 'Dasha'];
+var names = ['Slava', 'Misha', 'Sveta', 'Galya', 'Ksusha', 'Dasha', 'Myaut', 'Pupsya'];
 var tribe = [];
 for(var i = 0; i < 10000; i++) {
   var person = {
