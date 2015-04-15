@@ -28,8 +28,8 @@
  */
 
 /**
- * Create a function tree(width)
- * that prints a tree from 1 to 'width'
+ * Create a function tree(rows)
+ * that prints a tree from 1 to 'rows'
  *
  * @example
  * tree(5) ->
