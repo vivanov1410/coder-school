@@ -76,3 +76,5 @@ console.log('Time Traveled: ' + timeTraveled + ' years');
 // добавь в статистику сколько всего людей умерло и родилось за все время
 console.log('Births: ' + births);
 console.log('Deaths: ' + deaths);
+
+

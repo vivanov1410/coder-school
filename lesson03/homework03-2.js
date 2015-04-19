@@ -2,6 +2,14 @@
  * Create a function isDead(health)
  * that returns 'true' if health is equal or lower than zero
  */
+function isDead(health) {
+  if(health <= 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(isDead(-10));
 
 /**
  * Create a function increasePopulation(population, birthRate)
