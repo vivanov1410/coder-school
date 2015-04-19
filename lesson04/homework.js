@@ -73,6 +73,7 @@ ladder(10, '?');
  *
  * @example
  * tree(5) ->
+<<<<<<< HEAD
  * "  *
  *   ***
  *  *****"
@@ -121,3 +122,4 @@ function tree(rows) {
 }
 
 tree(5);
+
