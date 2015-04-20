@@ -41,3 +41,4 @@ if(attacker > defender) {
 // archer - power = 4 / defence = 3
 // swordmen - power = 4 / defence = 4
 // и т.д...
+

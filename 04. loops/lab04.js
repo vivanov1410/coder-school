@@ -1,6 +1,13 @@
+// for(var i = 0; i <= 1000; i++) { // i = i + 1
+//   console.log(i);
+// }
+
 /**
  * Create a loop that prints out numbers from 10 to 100
  */
+for(var loop = 10; loop <= 100; loop++) {
+  console.log(loop);
+}
 
 /**
  * Create a loop that prints out numbers from 1 to 1000 in following format:
@@ -12,6 +19,15 @@
  * 999 - odd
  * 1000 - even
  */
+
+for(var loop = 1; loop <= 1000; loop++) {
+  if(loop % 2 === 0) {
+    console.log(loop + ' even');
+  } else {
+    console.log(loop + ' odd');
+  }
+}
+
 
 /**
  * Print out a sum of all even numbers from 1 to 1000

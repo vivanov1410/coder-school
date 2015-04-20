@@ -4,9 +4,12 @@
 
 // for loop
 
-// for(var i = 0; i <= 1000; i++) { // i = i + 1
-//   console.log(i);
-// }
+for(var i = 0; i <= 1000; i++) { // i = i + 1
+  console.log(i);
+}
+
+
+
 
 // for(var i = 0; i <= 1000; i++) {
 //   if(i % 2 === 0) {
@@ -44,16 +47,16 @@
 // // ...
 // console.log('Total: ' + sum);
 
-var fruits = ['banana', 'apple', 'orange', 'melon', 'watermelon', 'cucumber'];
-// for(var i = 0; i < fruits.length; i++) { // пока индекс меньше длины массива
-//   console.log(fruits[i]);
-// }
+// var fruits = ['banana', 'apple', 'orange', 'melon', 'watermelon', 'cucumber'];
+// // for(var i = 0; i < fruits.length; i++) { // пока индекс меньше длины массива
+// //   console.log(fruits[i]);
+// // }
 
-for(var i = 0; i < fruits.length; i++) { // пока индекс меньше длины массива
-  if(fruits[i] === 'orange') {
-    console.log('Orange is here under index ' + i);
-  }
-}
+// for(var i = 0; i < fruits.length; i++) { // пока индекс меньше длины массива
+//   if(fruits[i] === 'orange') {
+//     console.log('Orange is here under index ' + i);
+//   }
+// }
 
 // var stars = '';
 // var numbers = '';
