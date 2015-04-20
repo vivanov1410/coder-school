@@ -11,7 +11,7 @@ var numbers = [1, 2, 3];
 
 var square = function (n) {
   return n * n;
-}
+};
 
 // console.log(square(5));
 
@@ -49,7 +49,7 @@ player.gainHealth = function () {
 
 player.lostHat = function () {
   this.armor -= 10;
-}
+};
 
 // player.lostHat();
 // console.log(player.armor);
@@ -62,7 +62,7 @@ var enemy = {
 
 var attack = function (attacker, defender) {
   console.log(attacker.name + ' is attacking ' + defender.name);
-}
+};
 
 attack(player, enemy);
 
@@ -98,17 +98,17 @@ for(var i = 0; i < tribe.length; i++) {
       totals[j] = totals[j] || 0;
       totals[j]++;
     }
-  };
-};
+  }
+}
 
 for(var i = 0; i < names.length; i++) {
   console.log('Total of ' + names[i] + ': ' + totals[i]);
-};
+}
 
 // average age
 var totalAge = 0;
 for(var i = 0; i < tribe.length; i++) {
   totalAge += tribe[i].age;
-};
+}
 
 console.log('Average age: ' + totalAge / tribe.length);
