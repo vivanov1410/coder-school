@@ -1,0 +1,80 @@
+1. player-stats.go
+Create an app that prints out player stats in following format:
+
+`
+Name:   Terminator
+Age:    1000 years
+Health: Low
+Status: Enabled
+`
+
+2. player-stats-real.go
+Create an app asks user to enter following info into console:
+
+`
+Whats is your name?:
+What is your age?:
+How is your health (good or bad)?:
+What is the best programming language (go or nothing)?:
+`
+
+Then app should print out that info in following format:
+
+`
+Name: Terminator
+Age: 1000
+Health: good
+I program in: go!!!
+`
+
+3. circle-length.go
+Create an app that calculates length of the circle. App should ask user to input radius:
+
+`
+Enter radius in cm:
+`
+
+The app should print out circle length:
+
+`
+Circle with radius {radius}cm has length of {length}cm
+`
+
+4. greater.go
+Create an app that greats a user. App should ask user to enter his first and last name:
+
+`
+Enter your full name: Peter Griffin
+`
+
+Then app should great user by its name:
+
+`
+Welcome to the real world, Peter Griffin
+`
+
+5. sum.go
+Create an app that sums two number. App should ask user to enter two numbers:
+
+`
+Введите два числа через пробел: 344 512
+`
+
+The app should print out sum of these two numbers:
+
+`
+Сумма чисел 344 и 512 равна 856
+`
+
+6. circle-aren.go
+Create an app that calculates area of the circle. App should ask user to input radius:
+
+`
+Enter radius in cm: 15
+`
+
+The app should print out circle area:
+
+`
+Circle with radius 15cm has area of 706.8375cm
+`
