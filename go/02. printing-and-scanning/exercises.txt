@@ -66,7 +66,7 @@ The app should print out sum of these two numbers:
 Сумма чисел 344 и 512 равна 856
 `
 
-6. circle-aren.go
+6. circle-area.go
 Create an app that calculates area of the circle. App should ask user to input radius:
 
 `

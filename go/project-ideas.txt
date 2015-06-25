@@ -1,0 +1,2 @@
+1. Test english words from polyglot projects. Enter wich batch, how many times,
+then app gives words in random order and count correct/error answers.
