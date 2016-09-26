@@ -1,0 +1,31 @@
+<meta charset ="utf-8">
+<script>
+var a = prompt ("введи число №1")
+a = parseInt(a)
+var b = prompt ("введи знак")
+var d = prompt ("введи число №2")
+d = parseInt(d)
+if (isNaN(a) || isNaN(d) ) {
+alert("вводи числа")
+} else {
+if (b == "*") {
+	alert("Результат = " + a*d)
+} else if (b == "/") {
+	alert("Результат = " + a/d)
+} else if (b == "+") {
+	alert("Результат = " + (a+d))
+} else if (b == "-") {
+	alert("Результат = " + (a-d))
+} else {
+	alert("используй * , / , + , - ")
+}
+	}
+</script>
+
+
+<!-- <meta charset="utf-8">
+<script>
+var a=prompt("A:");
+var b=prompt("B:");
+alert(parseInt(a)+parseInt(b));
+</script> -->
