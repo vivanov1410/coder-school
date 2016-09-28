@@ -1,9 +1,28 @@
 <meta charset="utf-8">
 <script>
-var a = prompt("enter angle shot")
-if (a >= 10 && a <= 45 || a >= 70 && a <= 90) {
-	alert ("good shot")
+var b = 0
+var a = ""
+a = parseInt(prompt("enter angle shot"))
+if (isNaN(a)) {
+	alert("you can enter only numbers")
+} else if (a >= 10 && a <= 45 || a >= 70 && a <= 90) {
+	alert("good shot")
+	b++
 } else {
-	alert ("missed")
+	alert("missed")
+}
+a = parseInt(prompt("hey come on shot again!"))
+if (isNaN(a)) {
+	alert("you can enter only numbers")
+} else if (a <= 30 && a >= 20 || a >= 50 && a <= 80) {
+	alert("good shot")
+	b++
+} else {
+	alert("missed")
+}
+if (b >= 1) {
+	alert("good work " + b + " hits")
+} else {
+	alert ("you need to train")
 }
 </script>
