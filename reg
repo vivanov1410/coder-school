@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: openresty
+Date: Tue, 22 Nov 2016 11:35:20 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: csk2=54; expires=Wed, 22-Nov-2017 11:35:20 GMT; Max-Age=31536000; path=/; domain=.am.ru; httponly
+X-Accel-Expires: 1836
+X-Cache-Key: POST|cabinet.am.ru||54|/int/controls/get-regions/
+Content-Length: 10
+
+[]

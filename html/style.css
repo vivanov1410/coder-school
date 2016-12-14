@@ -1,0 +1,75 @@
+* {
+  text-decoration: none;
+}
+
+html{
+  background: url("http://blog.tahoepartners.com/wp-content/uploads/2014/04/Blue-Geometric-Background.jpg")
+  repeat-y #711ddd bottom left;
+}
+
+body {
+  background-color:;
+}
+
+ul {color: red}
+
+#field-1 {color: green} <!-- меняется цвет символов в данном поле-->
+
+#menu{
+	font-family:Tahoma; color:#red;
+}
+
+#t1 {color: red}
+h3.style {color: green}
+
+p#t2:first-letter {
+  color: red;
+}
+
+p#t2:first-line {
+  color: #2cdd1d;
+}
+
+p:hover {background-color: red}
+p:active {background-color: #1127ee}
+.href {
+  color: #16da25;
+  text-decoration:none;
+}
+
+.href:hover {
+  color: #ec5911;
+  text-decoration:none;
+}
+
+.href:active {
+  color: #b513e9;
+  text-decoration:none;
+}
+
+#TextStyles {
+  font-size: 1.1em;
+  font-weight: lighter;
+  font-family: cursive, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  line-height: 300%;
+}
+
+p {
+  text-indent: 1.1em;
+}
+
+#testblock {
+  border: 2px outset silver;
+  height: 200px;
+  width: 500px;
+  background-color: #1462d6;
+  margin: 20px 40px 50px 60px;
+  margin-left: 60px;
+  padding: 20px;
+  border-radius: 50px;
+}
